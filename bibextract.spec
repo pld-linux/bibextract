@@ -2,6 +2,7 @@
 # - DESTDIR patch HAS to be made - during install there is 
 # some substitutions done.
 Summary:	Tools for extracting citation tags
+Summary(pl):	Narzêdzia do wyci±gania znaczników cytowania
 Name:		bibextract
 Version:	1.09
 Release:	0.1
@@ -12,12 +13,15 @@ Source0:	ftp://ftp.math.utah.edu/pub/tex/bib/%{name}-%{version}.tar.bz2
 URL:		http://www.ecst.csuchico.edu/~jacobsd/bib/tools/bibtex.html
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	sed
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tools for extracting citation tags from LaTeX and .aux files and extracting
-those entries from BibTeX files.
+Tools for extracting citation tags from LaTeX and .aux files and
+extracting those entries from BibTeX files.
+
+%description -l pl
+Narzêdzia do wyci±gania znaczników cytowania z LaTeXa i plików .aux
+oraz wyci±gania tych wpisów z plików BibTeXa.
 
 %prep
 %setup -q
