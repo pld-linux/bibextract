@@ -2,7 +2,7 @@
 # - DESTDIR patch HAS to be made - during install there is 
 # some substitutions done.
 Summary:	Tools for extracting citation tags
-Summary(pl.UTF-8):   Narzędzia do wyciągania znaczników cytowania
+Summary(pl.UTF-8):	Narzędzia do wyciągania znaczników cytowania
 Name:		bibextract
 Version:	1.09
 Release:	0.1
