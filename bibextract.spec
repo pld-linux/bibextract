@@ -2,7 +2,7 @@
 # - DESTDIR patch HAS to be made - during install there is 
 # some substitutions done.
 Summary:	Tools for extracting citation tags
-Summary(pl):	Narz阣zia do wyci眊ania znacznik體 cytowania
+Summary(pl.UTF-8):   Narz臋dzia do wyci膮gania znacznik贸w cytowania
 Name:		bibextract
 Version:	1.09
 Release:	0.1
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tools for extracting citation tags from LaTeX and .aux files and
 extracting those entries from BibTeX files.
 
-%description -l pl
-Narz阣zia do wyci眊ania znacznik體 cytowania z LaTeXa i plik體 .aux
-oraz wyci眊ania tych wpis體 z plik體 BibTeXa.
+%description -l pl.UTF-8
+Narz臋dzia do wyci膮gania znacznik贸w cytowania z LaTeXa i plik贸w .aux
+oraz wyci膮gania tych wpis贸w z plik贸w BibTeXa.
 
 %prep
 %setup -q
